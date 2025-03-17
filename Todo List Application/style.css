@@ -1,0 +1,43 @@
+body {
+  font-family: cursive;
+  margin: 0;
+  padding: 0;
+  background-color: aliceblue;
+}
+.container {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: chocolate;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  text-align: center;
+  color: rgb(53, 44, 44);
+}
+.todo-input {
+  display: flex;
+  margin-bottom: 20px;
+}
+input[type='text'] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: rgb(40, 38, 38);
+  color: whitesmoke;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 16px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}

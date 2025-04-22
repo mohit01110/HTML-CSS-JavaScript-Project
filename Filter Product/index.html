@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Filter Product</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="filterContainer">
+      <div class="searchContainer">
+        <input type="text" name="" id="searchInput" placeholder="Search" />
+        <button id="searchBtn">Search</button>
+      </div>
+      <div class="categoryContainer">
+        <div class="categoryBtn active" data-category="all">All Product</div>
+        <div class="categoryBtn" data-category="Electronics">Electronics</div>
+        <div class="categoryBtn" data-category="Clothing">Clothing</div>
+        <div class="categoryBtn" data-category="HomeAndGarden">
+          Home & Garden
+        </div>
+      </div>
+    </div>
+
+    <div id="productList">
+      <div class="productItem" data-category="Electronics">
+        <h3>SmartPhone</h3>
+        <p>SmartPhone Description here...</p>
+      </div>
+      <div class="productItem" data-category="Clothing">
+        <h3>T-Shirt</h3>
+        <p>T-Shirt Description here...</p>
+      </div>
+      <div class="productItem" data-category="HomeAndGarden">
+        <h3>Coffee Maker</h3>
+        <p>Coffee Maker Description here...</p>
+      </div>
+      <div class="productItem" data-category="Electronics">
+        <h3>Laptop</h3>
+        <p>Laptop Description here...</p>
+      </div>
+      <div class="productItem" data-category="HomeAndGarden">
+        <h3>Blender</h3>
+        <p>Blender Description here...</p>
+      </div>
+      <div class="productItem" data-category="Clothing">
+        <h3>Jeans</h3>
+        <p>Jeans Description here...</p>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
